@@ -1,0 +1,49 @@
+:root {
+  --em-size: 16px; 
+  --font-stack: system-ui, "Helvetica", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+
+}
+
+body {
+    font-family: var(--font-stack);
+    font-size: var(--em-size);
+    padding: 2rem;
+}
+
+header {
+  padding: 2rem;
+  outline: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+nav {
+  padding: 2rem;
+  outline: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  padding: 2rem;
+  outline: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 2rem;
+  outline: 2px solid black;
+}

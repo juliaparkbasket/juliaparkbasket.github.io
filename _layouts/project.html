@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% include header.html %}
+<nav>
+  <a href="/">Back</a>
+</nav>
+
+<main>
+  <h1>{{ page.emoji }}<br />{{ page.title }}</h1>
+  <time>{{ page.date | date_to_string }}</time>
+
+  <article>{{ content }}</article>
+</main>
