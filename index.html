@@ -5,15 +5,5 @@ description: TODO
 ---
 {% include header.html %}
 {% include nav.html %}
-
-<main>
-  <ul>
-    {% for post in site.categories["Digital"] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</main>
-
+{% include list_posts.html category="Digital"  %}
 {% include footer.html %}

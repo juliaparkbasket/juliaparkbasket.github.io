@@ -47,3 +47,10 @@ footer {
   padding: 2rem;
   outline: 2px solid black;
 }
+
+/* MARKDOWN STYLES > start with <article> */
+
+article img {
+  width: 100%;
+  height: auto;
+}
